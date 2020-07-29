@@ -2,6 +2,8 @@
 # out the current state.
 board = [" ", "|", " ", "|", " ", "\n-----------\n", " ", "|", " ", "|", " ", "\n-----------\n", " ", "|",  " ", "|", " "]
 
-def display_board
+def display_board(board)
   puts "#{board}"
 end
+
+display_board
