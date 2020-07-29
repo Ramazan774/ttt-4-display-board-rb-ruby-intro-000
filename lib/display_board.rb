@@ -2,6 +2,8 @@
 # out the current state.
 
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
+row = [" ", "|", " ", "|", " "]
+separator = [-----------]
 
 def display_board(board)
   board[0] = "X"
