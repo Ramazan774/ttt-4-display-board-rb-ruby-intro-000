@@ -3,7 +3,7 @@
 
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 row = [" ", "|", " ", "|", " "]
-separator = [-----------]
+separator = "-----------"
 
 def display_board
   puts row 
