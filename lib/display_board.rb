@@ -5,12 +5,10 @@ board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 row = [" ", "|", " ", "|", " "]
 separator = [-----------]
 
-def display_board
+def display_board(board)
   puts row 
   puts separator
   puts row
   puts separator
   puts row
 end
-
-display_board(board)
