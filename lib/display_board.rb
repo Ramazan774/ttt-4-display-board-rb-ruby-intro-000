@@ -2,8 +2,8 @@
 # out the current state.
 
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
-row = ["   |   |   ", "   |   |   ", "   |   |   "]
-separator = ["-----------", "-----------"]
+row = "   |   |   "
+separator = "-----------"
 
 def display_board(board)
   puts row[0]
