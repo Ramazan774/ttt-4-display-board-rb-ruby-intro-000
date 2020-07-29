@@ -6,6 +6,9 @@ row = [" ", "|", " ", "|", " "]
 separator = [-----------]
 
 def display_board(board)
-  board[0] = "X"
-  puts "#{board}"
+  puts row 
+  puts separator
+  puts row
+  puts separator
+  puts row
 end
